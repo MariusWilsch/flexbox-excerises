@@ -110,3 +110,32 @@ ul	{
 	list-style: none;
 } */
 
+/* CSS for ex03.html */
+
+*	{
+	margin:  0;
+	padding: 0;
+}
+body	{
+	background-color: white;
+}
+h1	{
+	text-align: center;
+}
+.media	{
+	margin-top: 32px;
+	display: flex;
+	height: 400px;
+	justify-content: center;
+	/* gap: 10%; */
+	column-gap: 52px;
+}
+.image-with-text	{
+	text-align: center;
+	width: 200px;
+}
+.image-with-text img	{
+	display: block;
+	margin: 0 auto;
+}
+
