@@ -1,3 +1,5 @@
+/* 
+--> Styles applying to ex01.html
 *	{
 	margin:0;
 	padding: 0;
@@ -45,5 +47,65 @@ a	{
 	padding: 10px;
 	margin-right: 5px;
 	background-color: white;
+} 
+end of styles for ex01.html
+*/
 
+/* styles for ex02.html */
+
+/* Layout */
+*	{
+	margin:  0;
+	padding: 0;
 }
+body	{
+	background-color: rgba(176, 176, 176, 0.448);
+}
+nav	{
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+}
+ul li	{
+	display: inline;
+	margin-right: 5px;
+}
+button	{
+	padding: 8px;
+	margin-right: 10px;
+	border-radius: 10%;
+	border: none;
+}
+#left-nav	{
+	margin-right: auto;
+}
+#profile-img	{
+	height: 40px;
+	width: 40px;
+	border-radius: 48%;
+	background-color: purple;
+}
+#logo	{
+	margin-right: 10px;
+	font-size: 30px;
+	font-weight: 900;
+}
+#header	{
+	background-color: white;
+	height: 80px;
+}
+
+/* Typography */
+
+a	{
+	text-decoration: none;
+	color: purple;
+}
+button	{
+	background-color: purple;
+	color: white;
+}
+ul	{
+	list-style: none;
+}
+
