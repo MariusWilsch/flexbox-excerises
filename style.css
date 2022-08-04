@@ -51,9 +51,10 @@ a	{
 end of styles for ex01.html
 */
 
-/* styles for ex02.html */
+/* styles for ex02.html 
 
-/* Layout */
+Layout <-- comment this out!
+
 *	{
 	margin:  0;
 	padding: 0;
@@ -95,7 +96,7 @@ button	{
 	height: 80px;
 }
 
-/* Typography */
+Typography <-- comment this out!
 
 a	{
 	text-decoration: none;
@@ -107,5 +108,5 @@ button	{
 }
 ul	{
 	list-style: none;
-}
+} */
 
