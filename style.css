@@ -110,7 +110,7 @@ ul	{
 	list-style: none;
 } */
 
-/* CSS for ex03.html */
+/* CSS for ex03.html 
 
 *	{
 	margin:  0;
@@ -130,7 +130,6 @@ img	{
 	margin-top: 32px;
 	display: flex;
 	justify-content: center;
-	/* gap: 10%; */
 	column-gap: 52px;
 }
 .image-with-text	{
@@ -141,4 +140,57 @@ img	{
 	display: block;
 	margin: 0 auto;
 }
+*/
 
+/* CSS for ex04.hmtl */
+
+*	{
+	margin:  0;
+	padding: 0;
+}
+
+body	{
+	background-color: #aaaaaa;
+}
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.pop-up	{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	border-radius: 10px;
+}
+.icon-1	{
+	width: 40px;
+	height: 40px;
+	background-color: #E6E6FA;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon-1 p	{
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+	font-size: 30px;
+}
+.button-0	{
+	background-color: blue;
+	padding: 8px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.button-1	{
+	background-color: white;
+	border: 1px solid lightgray;
+	padding: 8px;
+	color: blue;
+	border-radius: 5px;
+}
