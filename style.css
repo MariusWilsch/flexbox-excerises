@@ -122,17 +122,20 @@ body	{
 h1	{
 	text-align: center;
 }
+img	{
+	height: 100px;
+	width: 100px;
+}
 .media	{
 	margin-top: 32px;
 	display: flex;
-	height: 400px;
 	justify-content: center;
 	/* gap: 10%; */
 	column-gap: 52px;
 }
 .image-with-text	{
 	text-align: center;
-	width: 200px;
+	max-width: 200px;
 }
 .image-with-text img	{
 	display: block;
